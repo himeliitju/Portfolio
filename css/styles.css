@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.w100{
+    
+    width: 100%;
+    background-color:#eff4fd ;
+    
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    
+    height: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 16.65%;
+}
+.detel a:hover{
+    background: transparent;
+    color: black;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+.detel a.hireme {
+    background: orange;
+    margin-left: 5px;
+    
+}
+.detel a.hireme:hover {
+    background: transparent;
+}
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 3s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .himel{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+
+/*about page css*/
+.about{
+    background-color:#eff4fd ;
+    margin-left: 7.8%;
+}
+.about img{
+    margin-top: 70px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    height: 500px;
+  
+    margin-bottom: 30px;
+    float: left;
+    display: block;
+}
+.about-image{
+    float: left;
+}
+
+.about h1{
+    text-align:left;
+    margin-right: 270px;
+    text-align: right;
+    padding: 60px;
+   
+}
+
+.about .contact_heading{
+    margin-top: 75px;
+
+}
+
+.about-content{
+    width: 55%;
+    float: right;
+}
+
+.about-content .contact_heading{
+    margin-right: 200px;
+}
+
+.info h4{
+    font-family: 'Open Sans';
+    font-size: 28px;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.info{
+    float: left;
+    padding-left: 8%;
+    text-align: left;
+}
+.info ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 50px;
+}
+.info ul li{
+    padding: 10px 0px;
+    color: rgb(77, 77, 77);
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+}
+.info ul li span{
+    color: orangered;
+}
+
+
+.w50{
+    
+    width: 50%;
+    float: left;
+}
+.w50 img{
+    height: 450px;
+}
+
+.pinfo{
+    margin-top: 30%;
+    
+}
+.header{
+    height: 15%;
+    width: 100%;
+   
+}
+
+.hport {
+    text-align: center ;
+
+}
+.pinfo{
+    margin-top: 40px;
+}
+
+.header h1{
+    padding-top: 30px;
+}
+nav ul li a.active{
+    
+    color: orangered;
+}
+
+
+.contact_part{
+    padding: 100px 0px;
+}
+.form_part{
+    width: 750px;
+    margin: 30px auto 0px;
+}
+.text_part{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+.text_part2{
+    margin-left: 5%;
+    margin-right: 0;
+}
+.message_part label,
+.text_part label{
+    display: block;
+    color: #636363;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.message_part label span,
+.text_part label span{
+    color: #db0000;
+}
+.message_part textarea,
+.text_part .input_text{
+    width: 95%;
+    height: 40px;
+    border: 1px solid #999999;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.message_part textarea{
+    height: 223px;
+    resize: none;
+    width: 98%;
+    padding-left: 2%;
+    line-height: 32px;
+}
+.form_part form button{
+    float: right;
+    padding: 15px 60px;
+    background: #fcac45;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid #fcac45;
+    
+}
+
+
+.contact_heading{
+    text-align: center;
+}
+.contact_heading h2{
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #222222;
+    margin-top: -60px;
+    margin-bottom: 70px;
+    
+    text-transform: uppercase;
+    position: relative;
+}
+.contact_heading h2 span{
+    font-weight: 600;
+}
+.contact_heading h2:before{
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    left: 50%;
+    bottom: -20px;
+    content: '';
+    background: #fcac45;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.contact_heading h2:after{
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    left: 50%;
+    bottom: -35px;
+    content: '';
+    background: #c78f47;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+.portfolio .contact_heading{
+    margin-top: 70px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 0 8px 20px;
+
+    overflow: hidden;
+   margin-right: 52px;
+  }
+  .ml{
+      margin-left: 7.5%;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;                
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card img{
+      height: 300px;
+  }
+
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
